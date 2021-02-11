@@ -2,8 +2,8 @@ package ems
 
 /*
 #cgo darwin CFLAGS: -I.
-#cgo darwin CFLAGS: -I/opt/tibco/ems/ems841/ems/8.4/include/tibems
-#cgo darwin LDFLAGS: -L/opt/tibco/ems/ems841/ems/8.4/lib -ltibems64
+#cgo darwin CFLAGS: -I/opt/tibco/ems/8.5/include/tibems
+#cgo darwin LDFLAGS: -L/opt/tibco/ems/8.5/lib -ltibems64
 
 #include <tibems.h>
 tibemsDestination castToDestination(tibemsTemporaryQueue queue) {
